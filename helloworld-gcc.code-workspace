@@ -1,0 +1,62 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"astyle-format.path": "C:\\msys64\\mingw64\\bin\\astyle.exe",
+		"astyle-format.args": " --mode=c --style=ansi -t2 -C -S -K -Y",
+		"terminal.integrated.automationShell.windows": "",
+		"terminal.integrated.env.windows": {
+			"PATH": "${env:PATH};C:\\msys64\\usr\\bin"
+		},
+		"terminal.integrated.profiles.windows": {
+			"PowerShell": {
+				"source": "PowerShell",
+				"icon": "terminal-powershell"
+			},
+			"Command Prompt": {
+				"path": [
+					"${env:windir}\\Sysnative\\cmd.exe",
+					"${env:windir}\\System32\\cmd.exe"
+				],
+				"args": [],
+				"icon": "terminal-cmd"
+			},
+			"MSYS2 Bash": {
+				"path": [
+					"C:\\msys64\\usr\\bin\\bash.exe"
+				],
+				"args": [
+					"--login",
+					"-i"
+				],
+				"env": {
+					"MSYSTEM": "MSYS2",
+					"CHERE_INVOKING": "1",
+				}
+			},
+			"MINGW64 Bash": {
+				"path": [
+					"C:\\msys64\\usr\\bin\\bash.exe"
+				],
+				"args": [
+					"--login",
+					"-i"
+				],
+				"env": {
+					"MSYSTEM": "MINGW64",
+					"CHERE_INVOKING": "1",
+				}
+			},
+			"Git Bash": {
+				"source": "Git Bash"
+			},
+		},
+		"terminal.integrated.defaultProfile.windows": "PowerShell",
+		"files.associations": {
+			"iostream": "cpp"
+		},
+	}
+}
